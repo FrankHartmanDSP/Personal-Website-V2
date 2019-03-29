@@ -37,3 +37,8 @@ header.masthead {
   background: linear-gradient(to top, #{fade-out($brown, .09)} 0%,#{fade-out($brown, 0)} 100%), url('../img/about/bg-about.jpg');
 }
 
+// Projects page background
+#projects{
+  background: linear-gradient(to top, #{fade-out($white, 0.25)} 0%,#{fade-out($white, 0.5)} 100%), url('../img/projects/bg-projects.jpg');
+}
+

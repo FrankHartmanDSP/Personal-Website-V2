@@ -10707,6 +10707,11 @@ header.masthead h1 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.91) 0%, black 100%), url("../img/about/bg-about.jpg");
 }
 
+#projects {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.75)), to(rgba(255, 255, 255, 0.5))), url("../img/projects/bg-projects.jpg");
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.5) 100%), url("../img/projects/bg-projects.jpg");
+}
+
 #portfolio .container-fluid {
   max-width: 1920px;
 }
