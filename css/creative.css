@@ -10716,6 +10716,15 @@ header.masthead h1 {
   background-size: cover;
 }
 
+#music {
+  background: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(0, 0, 0, 0.85))), url("../img/music/bg-music.jpg");
+  background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.85) 100%), url("../img/music/bg-music.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 #portfolio .container-fluid {
   max-width: 1920px;
 }
