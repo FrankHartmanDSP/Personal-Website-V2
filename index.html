@@ -58,10 +58,10 @@
     <div class="container h-100">
       <div class="row h-100 align-items-left justify-content-left text-left">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-white font-weight-light">Franklin Hartman</h1>
+          <h1 class="text-white font-weight-light" style='max-width: 60vw;'>Franklin Hartman</h1>
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <h5 class="text-white-50 font-weight-light mb-5">Software Developer | Sound Artist</h5>
+          <h5 class="text-white-50 font-weight-light mb-5" style='max-width: 55vw;'>Software Developer | Sound Artist</h5>
         </div>
       </div>
     </div>
@@ -69,7 +69,8 @@
 
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
-    <div class="container">
+    <!-- Non-Mobile -->
+    <div class="container d-none d-sm-block">
       <div class="row justify-content-center">
         <div class="col-lg-5 col-md-4 text-center">
           <img class="img-fluid" src="img/about/self.jpg" alt="">
@@ -82,6 +83,21 @@
         </div>
       </div>
     </div>
+    <!-- Mobile -->
+    <div class="container d-block d-sm-none">
+        <div class="row justify-content-center">
+            <div class="col-sm-1 col-md-4 text-center">
+                <img class="img-fluid" src="img/about/self.jpg" alt="" style="max-width: 70%;">
+              </div>
+          <div class="col-lg-4 col-md-6 my-auto text-center" style="max-width: 75%">
+              <br>
+              <h2 class="text-white mt-0 font-weight-light">About Me</h2>
+              <hr class="divider light my-3">
+            <p class="text-white-50 mb-4 font-weight-lighter">I am an artist and software developer based in Minneapolis, Minnesota. What drives me is discovering new possibilities in audio, atmosphere, and the technologies that support them.</p>
+          </div>
+
+        </div>
+      </div>
   </section>
 
   <!-- Projects Section -->
@@ -114,7 +130,7 @@
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
+            <h3 class="h4 mb-2">UROP Grant</h3>
             <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
           </div>
         </div>
