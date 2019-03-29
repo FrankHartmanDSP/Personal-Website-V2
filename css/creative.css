@@ -10708,8 +10708,12 @@ header.masthead h1 {
 }
 
 #projects {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.75)), to(rgba(255, 255, 255, 0.5))), url("../img/projects/bg-projects.jpg");
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.5) 100%), url("../img/projects/bg-projects.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(white), to(rgba(255, 255, 255, 0.5))), url("../img/projects/bg-projects.jpg");
+  background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.5) 100%), url("../img/projects/bg-projects.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 #portfolio .container-fluid {
