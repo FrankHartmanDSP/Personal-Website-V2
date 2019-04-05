@@ -10703,8 +10703,8 @@ header.masthead h1 {
 }
 
 #about {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.89)), to(black)), url("../img/about/bg-about.jpg");
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.89) 0%, black 100%), url("../img/about/bg-about.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.88)), to(black)), url("../img/about/bg-about.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.88) 0%, black 100%), url("../img/about/bg-about.jpg");
 }
 
 #projects {
